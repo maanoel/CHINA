@@ -1,4 +1,14 @@
 {
-  "name": "testes2",
-  "packageManager": "yarn@3.3.1"
+	"name": "testes2",
+	"packageManager": "yarn@3.3.1",
+	"scripts": {
+		"start": "webpack-dev-server --mode development"
+	},
+	"dependencies": {
+		"react-scripts": "^5.0.1"
+	},
+	"devDependencies": {
+		"webpack-cli": "^5.0.1",
+		"webpack-dev-server": "^4.11.1"
+	}
 }
